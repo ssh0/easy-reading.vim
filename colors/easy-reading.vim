@@ -2,9 +2,7 @@
 " Version:  0.1
 " Last Change:  2015/06/13
 
-set background=dark
-
-" hi clear
+hi clear
 
 if exists("syntax_on")
   syntax reset
@@ -12,16 +10,17 @@ endif
 
 let colors_name = "easy-reading"
 
-" Vim >= 7.0 specific colors
-if version >= 700
-  hi CursorLine   cterm=None
-  hi ColorColumn  ctermbg=233
-  hi CursorColumn ctermbg=None
-  hi CursorLineNr cterm=reverse ctermbg=235  ctermfg=248
-  hi MatchParen   term=None     ctermfg=None ctermbg=239
-  hi Pmenu        ctermfg=0     ctermbg=7    guibg=Grey
-  hi PmenuSel     ctermfg=0     ctermbg=225  guibg=LightMagenta
+if &t_Co > 2 || has('gui_running')
+  syntax on
 endif
+
+hi CursorLine   cterm=None
+hi ColorColumn  ctermbg=233
+hi CursorColumn ctermbg=None
+hi CursorLineNr cterm=reverse ctermbg=235  ctermfg=248
+hi MatchParen   term=None     ctermfg=None ctermbg=239
+hi Pmenu        ctermfg=0     ctermbg=7    guibg=Grey
+hi PmenuSel     ctermfg=0     ctermbg=225  guibg=LightMagenta
 
 " Colors
 hi DiffAdd    term=bold      ctermfg=0    ctermbg=81  guibg=LightBlue
