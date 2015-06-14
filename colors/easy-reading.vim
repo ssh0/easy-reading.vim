@@ -23,7 +23,7 @@ hi Pmenu        ctermfg=0     ctermbg=7    guibg=Grey
 hi PmenuSel     ctermfg=0     ctermbg=225  guibg=LightMagenta
 
 " Colors
-hi Comment    term=bold      ctermfg=240
+hi Comment    term=bold      ctermfg=245
 hi DiffAdd    term=bold      ctermfg=0    ctermbg=81  guibg=LightBlue
 hi DiffChange term=bold      ctermfg=0    ctermbg=225 guibg=LightMagenta
 hi DiffDelete term=bold      ctermfg=0    ctermbg=159 gui=bold           guifg=Blue     guibg=LightCyan
