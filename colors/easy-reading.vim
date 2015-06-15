@@ -33,11 +33,10 @@ hi ErrorMsg   ctermfg=0      ctermbg=1    guifg=White guibg=Red
 hi FoldColumn ctermbg=None   ctermfg=74
 hi Folded     ctermbg=235    ctermfg=74
 hi LineNr     ctermbg=None   ctermfg=242
-hi NonText    ctermfg=0      guifg=Bg
+hi NonText    ctermfg=36
 hi Normal     ctermbg=None
 hi Search     ctermfg=0      guifg=0
 hi SignColumn ctermfg=8      ctermbg=None
-hi SpecialKey ctermbg=None   ctermfg=0
 hi SpellBad   term=reverse   ctermfg=0    ctermbg=224 gui=undercurl      guisp=Red
 hi SpellCap   term=reverse   ctermfg=0    ctermbg=81  gui=undercurl      guisp=Blue
 hi SpellLocal term=underline ctermfg=0    ctermbg=14  gui=undercurl      guisp=DarkCyan
