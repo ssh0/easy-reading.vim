@@ -37,6 +37,7 @@ hi NonText    ctermfg=36
 hi Normal     ctermbg=None
 hi Search     ctermfg=0      guifg=0
 hi SignColumn ctermfg=8      ctermbg=None
+hi SpecialKey ctermfg=0
 hi SpellBad   term=reverse   ctermfg=0    ctermbg=224 gui=undercurl      guisp=Red
 hi SpellCap   term=reverse   ctermfg=0    ctermbg=81  gui=undercurl      guisp=Blue
 hi SpellLocal term=underline ctermfg=0    ctermbg=14  gui=undercurl      guisp=DarkCyan
