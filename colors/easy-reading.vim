@@ -42,6 +42,6 @@ hi SpellBad   term=reverse   ctermfg=237  ctermbg=224 gui=undercurl      guisp=R
 hi SpellCap   term=reverse   ctermfg=237  ctermbg=81  gui=undercurl      guisp=Blue
 hi SpellLocal term=underline ctermfg=237  ctermbg=116 gui=undercurl      guisp=DarkCyan
 hi SpellRare  term=reverse   ctermfg=237  ctermbg=225 gui=undercurl      guisp=Magenta
-hi Statement  ctermfg=227    ctermbg=None
+hi Statement  ctermfg=228    ctermbg=None
 hi VertSplit  term=None      cterm=None   ctermfg=250 ctermbg=250
 hi Visual     ctermbg=237
