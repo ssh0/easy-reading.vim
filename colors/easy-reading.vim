@@ -20,7 +20,7 @@ hi CursorColumn ctermbg=None
 hi CursorLineNr cterm=reverse ctermbg=235  ctermfg=248
 hi MatchParen   term=None     ctermfg=None ctermbg=239
 hi Pmenu        ctermfg=0     ctermbg=7    guibg=Grey
-hi PmenuSel     ctermfg=0     ctermbg=225  guibg=LightMagenta
+hi PmenuSel     ctermfg=0     ctermbg=39   guibg=LightMagenta
 
 " Colors
 hi Comment    term=bold      ctermfg=245
