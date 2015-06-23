@@ -2,6 +2,8 @@
 " Version:  0.1
 " Last Change:  2015/06/13
 
+set background=light
+
 hi clear
 
 if exists("syntax_on")
