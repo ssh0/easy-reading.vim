@@ -19,7 +19,7 @@ endif
 hi CursorLine cterm=None
 hi ColorColumn ctermbg=233
 hi CursorColumn ctermbg=None
-hi CursorLineNr cterm=reverse ctermbg=235 ctermfg=248
+hi CursorLineNr cterm=bold ctermfg=248 ctermbg=235
 hi MatchParen term=None ctermfg=None ctermbg=239
 hi Pmenu ctermfg=238 ctermbg=250 guibg=Grey
 hi PmenuSel ctermfg=238 ctermbg=39 guibg=LightMagenta
@@ -29,12 +29,12 @@ hi Comment term=bold ctermfg=245
 hi DiffAdd term=bold ctermfg=238 ctermbg=81 guibg=LightBlue
 hi DiffChange term=bold ctermfg=238 ctermbg=225 guibg=LightMagenta
 hi DiffDelete term=bold ctermfg=238 ctermbg=159 gui=bold guifg=Blue guibg=LightCyan
-hi DiffText term=reverse ctermfg=238 cterm=bold ctermbg=211 gui=bold guibg=Red
+hi DiffText term=reverse cterm=bold ctermfg=238 ctermbg=211 gui=bold guibg=Red
 hi Error ctermfg=238 ctermbg=167 guifg=White guibg=Red
 hi ErrorMsg ctermfg=238 ctermbg=167 guifg=White guibg=Red
-hi FoldColumn ctermbg=235 ctermfg=74
-hi Folded ctermbg=235 ctermfg=74
-hi LineNr ctermbg=235 ctermfg=242
+hi FoldColumn ctermfg=74 ctermbg=235
+hi Folded ctermfg=74 ctermbg=235
+hi LineNr cterm=bold ctermfg=242 ctermbg=235
 hi NonText ctermfg=30
 hi Normal ctermbg=None
 hi Search ctermfg=238 guifg=#404040
