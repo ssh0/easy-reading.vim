@@ -16,7 +16,7 @@ if &t_Co > 2 || has('gui_running')
   syntax on
 endif
 
-hi CursorLine cterm=None
+hi CursorLine ctermbg=238
 hi ColorColumn ctermbg=233
 hi CursorColumn ctermbg=None
 hi CursorLineNr cterm=bold ctermfg=248 ctermbg=235
