@@ -32,8 +32,8 @@ hi DiffDelete term=bold ctermfg=238 ctermbg=159 gui=bold guifg=Blue guibg=LightC
 hi DiffText term=reverse cterm=bold ctermfg=238 ctermbg=211 gui=bold guibg=Red
 hi Error ctermfg=238 ctermbg=167 guifg=White guibg=Red
 hi ErrorMsg ctermfg=238 ctermbg=167 guifg=White guibg=Red
-hi FoldColumn ctermfg=74 ctermbg=235
-hi Folded ctermfg=74 ctermbg=235
+hi FoldColumn ctermfg=74 ctermbg=233
+hi Folded ctermfg=74 ctermbg=233
 hi LineNr cterm=bold ctermfg=242 ctermbg=235
 hi NonText ctermfg=30
 hi Normal ctermbg=None
