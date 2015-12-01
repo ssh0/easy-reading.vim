@@ -17,48 +17,45 @@ if &t_Co > 2 || has('gui_running')
 endif
 
 " General colors                                                            {{{
-hi   Normal         ctermbg=None
-hi   Visual         ctermbg=238
-hi   Search         ctermfg=238    guifg=#404040
-hi   ColorColumn    ctermbg=233
-hi   LineNr         cterm=bold     ctermfg=242     ctermbg=234
-hi   CursorColumn   ctermbg=None
-hi   CursorLineNr   cterm=bold     ctermfg=248     ctermbg=234
-hi   SignColumn     ctermbg=235
-hi   Folded         ctermfg=74     ctermbg=None
-hi   FoldColumn     ctermfg=74     ctermbg=None
-hi   VertSplit      term=None      cterm=None      ctermfg=251   ctermbg=251
-hi   Error          ctermfg=238    ctermbg=167     guifg=White   guibg=Red
-hi   ErrorMsg       ctermfg=238    ctermbg=167     guifg=White   guibg=Red
-hi   NonText        ctermfg=30
-hi   SpecialKey     ctermfg=238
+hi Normal       ctermbg=None
+hi Visual       ctermbg=238
+hi Search       ctermfg=238  guifg=#404040
+hi ColorColumn  ctermbg=233
+hi LineNr       cterm=bold   ctermfg=242  ctermbg=234
+hi CursorColumn ctermbg=None
+hi CursorLineNr cterm=bold   ctermfg=248  ctermbg=234
+hi SignColumn   ctermbg=235
+hi Folded       ctermfg=74   ctermbg=None
+hi FoldColumn   ctermfg=74   ctermbg=None
+hi VertSplit    term=None    cterm=None   ctermfg=251 ctermbg=251
+hi Error        ctermfg=238  ctermbg=167  guifg=White guibg=Red
+hi ErrorMsg     ctermfg=238  ctermbg=167  guifg=White guibg=Red
+hi NonText      ctermfg=30
+hi SpecialKey   ctermfg=238
 "                                                                           }}}
 " Vim => 7.0 specific colors                                                {{{
 if version >= 700
   hi CursorLine cterm=None
-  hi MatchParen term=None ctermfg=None ctermbg=239
-  hi Pmenu ctermfg=238 ctermbg=250 guibg=Grey
-  hi PmenuSel ctermfg=238 ctermbg=39 guibg=LightMagenta
+  hi MatchParen term=None   ctermfg=None ctermbg=239
+  hi Pmenu      ctermfg=238 ctermbg=250  guibg=Grey
+  hi PmenuSel   ctermfg=238 ctermbg=39   guibg=LightMagenta
 endif
 "                                                                           }}}
-
 " Syntax highlighting                                                       {{{
-hi   Comment     term=bold   ctermfg=245
-hi   Statement   ctermfg=3   ctermbg=None
-"                                                                           {{{
-
+hi Comment   term=bold ctermfg=245
+hi Statement ctermfg=3 ctermbg=None
+"                                                                           }}}
 " Diff highlighting                                                         {{{
-hi   DiffAdd      term=bold      ctermfg=238   ctermbg=81    guibg=LightBlue
-hi   DiffChange   term=bold      ctermfg=238   ctermbg=225   guibg=LightMagenta
-hi   DiffDelete   term=bold      ctermfg=238   ctermbg=159   gui=bold             guifg=Blue   guibg=LightCyan
-hi   DiffText     term=reverse   cterm=bold    ctermfg=238   ctermbg=211          gui=bold     guibg=Red
-"                                                                           {{{
-
+hi DiffAdd    term=bold    ctermfg=238 ctermbg=81  guibg=LightBlue
+hi DiffChange term=bold    ctermfg=238 ctermbg=225 guibg=LightMagenta
+hi DiffDelete term=bold    ctermfg=238 ctermbg=159 gui=bold           guifg=Blue guibg=LightCyan
+hi DiffText   term=reverse cterm=bold  ctermfg=238 ctermbg=211        gui=bold   guibg=Red
+"                                                                           }}}
 " Spelling                                                                  {{{
 if has("spell")
-  hi   SpellBad     term=reverse     ctermfg=238   ctermbg=224   gui=undercurl   guisp=Red
-  hi   SpellCap     term=reverse     ctermfg=238   ctermbg=81    gui=undercurl   guisp=Blue
-  hi   SpellLocal   term=underline   ctermfg=238   ctermbg=116   gui=undercurl   guisp=DarkCyan
-  hi   SpellRare    term=reverse     ctermfg=238   ctermbg=225   gui=undercurl   guisp=Magenta
+  hi SpellBad   term=reverse   ctermfg=238 ctermbg=224 gui=undercurl guisp=Red
+  hi SpellCap   term=reverse   ctermfg=238 ctermbg=81  gui=undercurl guisp=Blue
+  hi SpellLocal term=underline ctermfg=238 ctermbg=116 gui=undercurl guisp=DarkCyan
+  hi SpellRare  term=reverse   ctermfg=238 ctermbg=225 gui=undercurl guisp=Magenta
 endif
 "                                                                           }}}
