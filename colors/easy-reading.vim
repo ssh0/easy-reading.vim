@@ -20,6 +20,8 @@ endif
 hi Normal       ctermbg=None
 hi Visual       ctermbg=238
 hi Search       ctermfg=238  guifg=#404040
+hi StatusLine   ctermfg=236  ctermbg=242
+hi WildMenu     cterm=bold   ctermfg=255  ctermbg=23
 hi ColorColumn  ctermbg=233
 hi LineNr       cterm=bold   ctermfg=242  ctermbg=234
 hi CursorColumn ctermbg=None
