@@ -31,7 +31,7 @@ hi Folded       ctermfg=74   ctermbg=None
 hi FoldColumn   ctermfg=74   ctermbg=None
 hi VertSplit    term=None    cterm=None   ctermfg=251 ctermbg=251
 hi Error        ctermfg=238  ctermbg=167  guifg=White guibg=Red
-hi ErrorMsg     ctermfg=238  ctermbg=167  guifg=White guibg=Red
+hi ErrorMsg     cterm=bold   ctermfg=167  ctermbg=None  guifg=White guibg=Red
 hi NonText      ctermfg=30
 hi SpecialKey   ctermfg=238
 "                                                                           }}}
