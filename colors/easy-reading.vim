@@ -1,6 +1,6 @@
-" Maintainer: Shotaro Fujimoto (https://github.com/ssh0)
-" Version:  0.1.1
-" Last Change:  2015/12/01
+" Maintainer:  Shotaro Fujimoto <https://github.com/ssh0>
+" Version:     0.1.2
+" Last Change: 2016/02/24
 
 set background=light
 
@@ -23,12 +23,12 @@ hi Search       ctermfg=238  guifg=#404040
 hi StatusLine   ctermfg=236  ctermbg=242
 hi WildMenu     cterm=bold   ctermfg=255  ctermbg=23
 hi ColorColumn  ctermbg=233
-hi LineNr       cterm=bold   ctermfg=242  ctermbg=234
+hi LineNr       cterm=bold   ctermfg=242  ctermbg=236
 hi CursorColumn ctermbg=None
-hi CursorLineNr cterm=bold   ctermfg=248  ctermbg=234
-hi SignColumn   ctermbg=235
-hi Folded       ctermfg=74   ctermbg=None
-hi FoldColumn   ctermfg=74   ctermbg=None
+hi CursorLineNr cterm=bold   ctermfg=248  ctermbg=238
+hi SignColumn   ctermbg=236
+hi Folded       cterm=bold   ctermfg=74   ctermbg=234
+hi FoldColumn   cterm=bold   ctermfg=74   ctermbg=236
 hi VertSplit    term=None    cterm=None   ctermfg=251 ctermbg=251
 hi Error        ctermfg=238  ctermbg=167  guifg=White guibg=Red
 hi ErrorMsg     cterm=bold   ctermfg=167  ctermbg=None  guifg=White guibg=Red
@@ -37,15 +37,15 @@ hi SpecialKey   ctermfg=238
 "                                                                           }}}
 " Vim => 7.0 specific colors                                                {{{
 if version >= 700
-  hi CursorLine cterm=None
+  hi CursorLine cterm=None  ctermfg=None ctermbg=235
   hi MatchParen term=None   ctermfg=None ctermbg=239
   hi Pmenu      ctermfg=238 ctermbg=250  guibg=Grey
   hi PmenuSel   ctermfg=238 ctermbg=39   guibg=LightMagenta
 endif
 "                                                                           }}}
 " Syntax highlighting                                                       {{{
-hi Comment   term=bold ctermfg=245
-hi Statement ctermfg=3 ctermbg=None
+hi Comment   cterm=bold ctermfg=243
+hi Statement ctermfg=3  ctermbg=None
 "                                                                           }}}
 " Diff highlighting                                                         {{{
 hi DiffAdd    term=bold    ctermfg=238 ctermbg=81  guibg=LightBlue
