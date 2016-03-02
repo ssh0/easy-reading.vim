@@ -44,7 +44,7 @@ if version >= 700
 endif
 "                                                                           }}}
 " Syntax highlighting                                                       {{{
-hi Comment   cterm=bold ctermfg=243
+hi Comment   cterm=None ctermfg=243
 hi Statement            ctermfg=3   ctermbg=None
 "                                                                           }}}
 " Diff highlighting                                                         {{{
