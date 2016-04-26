@@ -37,8 +37,8 @@ hi SpecialKey                 ctermfg=238                           guifg=#44444
 "                                                                           }}}
 " Vim => 7.0 specific colors                                                {{{
 if version >= 700
-  hi CursorLine cterm=None  ctermfg=None ctermbg=235 gui=None guifg=#1c1c1c guibg=#262626
-  hi MatchParen cterm=None  ctermfg=None ctermbg=239 gui=None guifg=#1c1c1c guibg=#4e4e4e
+  hi CursorLine cterm=None  ctermfg=None ctermbg=235 gui=None               guibg=#262626
+  hi MatchParen cterm=None  ctermfg=None ctermbg=239 gui=None               guibg=#4e4e4e
   hi Pmenu                  ctermfg=238  ctermbg=250          guifg=#444444 guibg=#bcbcbc
   hi PmenuSel               ctermfg=238  ctermbg=39           guifg=#444444 guibg=#00afff
 endif
