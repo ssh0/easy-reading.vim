@@ -24,14 +24,14 @@ hi StatusLine                 ctermfg=236  ctermbg=242              guifg=#30303
 hi WildMenu     cterm=bold    ctermfg=255  ctermbg=23   gui=bold    guifg=#eeeeee guibg=#005f5f
 hi ColorColumn                             ctermbg=233                            guibg=#121212
 hi LineNr       cterm=bold    ctermfg=242  ctermbg=236  gui=bold    guifg=#666666 guibg=#303030
-hi CursorColumn                            ctermbg=None                           guibg=None
+hi CursorColumn                            ctermbg=None                           guibg=#1c1c1c
 hi CursorLineNr cterm=bold    ctermfg=248  ctermbg=238  gui=bold    guifg=#a8a8a8 guibg=#444444
 hi SignColumn                              ctermbg=236                            guibg=#303030
 hi Folded       cterm=bold    ctermfg=74   ctermbg=234  gui=bold    guifg=#5fafd7 guibg=#1c1c1c
 hi FoldColumn   cterm=bold    ctermfg=74   ctermbg=236  gui=bold    guifg=#5fafd7 guibg=#303030
 hi VertSplit    cterm=None    ctermfg=251  ctermbg=251  gui=None    guifg=#c6c6c6 guibg=#c6c6c6
 hi Error        cterm=reverse ctermfg=167  ctermbg=238  gui=reverse guifg=#d75f5f guibg=#444444
-hi ErrorMsg     cterm=bold    ctermfg=167  ctermbg=None gui=bold    guifg=#d75f5f guibg=None
+hi ErrorMsg     cterm=bold    ctermfg=167  ctermbg=None gui=bold    guifg=#d75f5f guibg=#1c1c1c
 hi NonText                    ctermfg=30                            guifg=#008787
 hi SpecialKey                 ctermfg=238                           guifg=#444444
 "                                                                           }}}
@@ -45,7 +45,7 @@ endif
 "                                                                           }}}
 " Syntax highlighting                                                       {{{
 hi Comment   cterm=None ctermfg=243              gui=None guifg=#767676
-hi Statement            ctermfg=3   ctermbg=None          guifg=#aeae86 guibg=None
+hi Statement            ctermfg=3   ctermbg=None          guifg=#aeae86
 "                                                                           }}}
 " Diff highlighting                                                         {{{
 hi DiffAdd    cterm=reverse ctermfg=81  ctermbg=238 gui=reverse guifg=#5fd7ff guibg=#444444
