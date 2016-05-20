@@ -27,7 +27,7 @@ hi LineNr       cterm=bold    ctermfg=242  ctermbg=236  gui=bold    guifg=#66666
 hi CursorColumn                            ctermbg=None                           guibg=#1c1c1c
 hi CursorLineNr cterm=bold    ctermfg=248  ctermbg=238  gui=bold    guifg=#a8a8a8 guibg=#444444
 hi SignColumn                              ctermbg=236                            guibg=#303030
-hi Folded       cterm=bold    ctermfg=74   ctermbg=234  gui=bold    guifg=#5fafd7 guibg=#1c1c1c
+hi Folded       cterm=bold    ctermfg=74   ctermbg=238  gui=bold    guifg=#5fafd7 guibg=#303030
 hi FoldColumn   cterm=bold    ctermfg=74   ctermbg=236  gui=bold    guifg=#5fafd7 guibg=#303030
 hi VertSplit    cterm=None    ctermfg=251  ctermbg=251  gui=None    guifg=#c6c6c6 guibg=#c6c6c6
 hi Error        cterm=reverse ctermfg=167  ctermbg=238  gui=reverse guifg=#d75f5f guibg=#444444
